@@ -1,0 +1,30 @@
+{
+  "name": "dunglas/api-platform-heroku",
+  "license": "MIT",
+  "type": "library",
+  "description": "Helpers to use API Platform and Symfony applications on Heroku.",
+  "keywords": ["Heroku", "Symfony", "API Platform"],
+  "homepage": "http://api-platform.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kévin Dunglas",
+      "email": "dunglas@gmail.com",
+      "homepage": "http://dunglas.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": { "Dunglas\\Heroku\\": "src/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
