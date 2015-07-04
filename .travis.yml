@@ -28,4 +28,4 @@ install:
 
 script:
     - vendor/bin/phpunit
-    - if [[ "$TRAVIS_PHP_VERSION" = "5.6" ]]; then php php-cs-fixer.phar fix --no-interaction --dry-run --diff -vvv; fi;
+    - if [[ "$TRAVIS_PHP_VERSION" = "5.6" ]]; then php php-cs-fixer.phar fix --no-interaction --dry-run --diff -vvv .; fi;

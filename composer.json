@@ -19,6 +19,10 @@
   "require-dev": {
     "phpunit/phpunit": "~4.6"
   },
+  "suggest": {
+    "dunglas/api-platform": "To build awesome modern API-first web apps",
+    "symfony/symfony": "To build awesome web apps"
+  },
   "autoload": {
     "psr-4": { "Dunglas\\Heroku\\": "src/" }
   },
